@@ -1,4 +1,5 @@
 Solución del reto 1 del codeFEST 2015 y prueba de concepto de TDD con Spock.
+Probado en Windows pero debe ser muy similar en otros sistemas.
 
 # Instalación con eclipse
 Puedes usar Eclipse con los plugins para Spring IDE, Groovy, Gradle y Spock.
@@ -23,4 +24,9 @@ Incluye tests unitarios y un test de integración de prueba sobre la página de 
 Para ejecutar los tests desde eclipse: `ALT+SHIFT+X, T`.
 
 Si quieres ejecutar el test de integración de prueba necesitarás instalarte previamente ChromeDriver (https://sites.google.com/a/chromium.org/chromedriver/downloads), configurando la ruta de instalación en `src/test/resources/GebConfig.groovy`
+
+# Ejecución de tests con gradle
+Estando en la carpeta del proyecto ejecutar `gradlew-test.bat`.
+
+Ver los resultados en `build\reports\tests\index.html`.
 
