@@ -1,8 +1,10 @@
 Solución del reto 1 del codeFEST 2015 y prueba de concepto de TDD con Spock.
+
 Probado en Windows pero debe ser muy similar en otros sistemas.
 
 # Instalación con eclipse
 Puedes usar Eclipse con los plugins para Spring IDE, Groovy, Gradle y Spock.
+
 Si quieres ahorrarte la instalación de plugins puedes decargarte una versión ya preparada aquí: ;-)
 
 https://github.com/jmfvarela/eclipse-with-plugins
@@ -29,4 +31,3 @@ Si quieres ejecutar el test de integración de prueba necesitarás instalarte pr
 Estando en la carpeta del proyecto ejecutar `gradlew-test.bat`.
 
 Ver los resultados en `build\reports\tests\index.html`.
-
